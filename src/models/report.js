@@ -2,7 +2,7 @@
 import { getFirestore } from '../utils/firestore.js';
 import { customAlphabet } from 'nanoid';
 
-const generateId = customAlphabet('ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789', 16);
+const generateId = customAlphabet('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789', 16);
 
 class Report {
   constructor(data) {
